@@ -4,7 +4,7 @@ const price = +prompt("Please enter the price: ");
 const paidMoney = +prompt("Enter the given money: ")
 
 function calcChange(price, paidMoney) {
-  // Calculate change 
+  // Calculate change
   let change = paidMoney - price;
   console.log(`The total change is: ${change}`);
   // Setting array of all possible options for the change
